@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shegy.myfinance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_launch"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddIncomeExpanseActivity"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".SetSumActivity"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".DetailingActivity"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".AddItemActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".OnePageSetFirstParamActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TwoPageSetFirstParamActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ThreePageSetFirstParamActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AddBankCardActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SetEmailBetaTest"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".FinalPageSetFirstParamActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

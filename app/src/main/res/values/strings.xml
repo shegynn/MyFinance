@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Мои финансы</string>
+    <string name="app_name_launch">MyFinance</string>
+    <string name="headline_expenses">Расходы</string>
+    <string name="headline_income">Доходы</string>
+    <string name="headline_total">Всего</string>
+    <string name="headline_month">Месяц</string>
+    <string name="headline_week">Неделя</string>
+    <string name="headline_day">День</string>
+    <string name="heading_button_add">+</string>
+    <string name="headline_balance">Баланс</string>
+    <string name="ItemFood">Продукты питания</string>
+    <string name="headline_welcome">
+        Добро пожаловать в программу "MyFinance"! \n
+        Для начала Вам надо заполнить первоначальные данные!
+    </string>
+    <string name="bt_continue">Продолжить</string>
+    <string name="headline_set_start_cash">Введите сумму ваших наличных</string>
+    <string name="headline_question_three_page_set_first_param">У вас есть банковская карта?</string>
+    <string name="answer_yes">Да</string>
+    <string name="answer_no">Нет</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headline_type_card">Введите тип карты</string>
+    <string name="headline_name_bank">Введите название банка</string>
+    <string name="headline_num_card">Введите номер карты</string>
+    <string name="headline_question_more_three_page_set_first_param">У вас есть еще банковская карта?</string>
+    <string name="headline_email_beta_test">Введите ваш e-mail</string>
+    <string name="bt_ok">OK</string>
+    <string name="headline_final_set_param">Поздравляем, теперь вы можете пользоваться программой</string>
+</resources>
